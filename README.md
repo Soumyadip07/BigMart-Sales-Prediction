@@ -48,9 +48,12 @@ The following steps were followed in building the predictive model:
 1. **Data Cleaning & Transformation**
    - Handle missing values
    - Standardize column names and formats
-2. **Feature Engineering**
+2. **Exploratory Data Analysis**
+   - Visualize relationships between features.
+   - Visualize the relationship between features and Target Variable
+4. **Feature Engineering**
    - Encoding categorical features using techniques like Label Encoding and One-Hot Encoding.
-3. **Model Building**
+5. **Model Building**
    - Used machine learning model approache such as:
      - Linear Regression
      - Random Forest[Tuned]
@@ -64,7 +67,7 @@ The following steps were followed in building the predictive model:
      - Custom CNN [1D Convolutional Neural Network for learning patterns between features]
      - LSTM
      - Ensemble of CNN + LSTM
-5. **Evaluation**
+6. **Evaluation**
    - Measure performance using metrics like MAE,MSE, RMSE and R-squared.
 
 ---
